@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+     }  
+     .main{
+     width: 100%;
+     background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(cover.jpg);
+     background-position: center;
+ background-size: cover;
+ height: 109vh;
+     }
+nav{
+    background:wheat;
+    height: 80px;
+    width: 1040px;
+}
+.logo{
+    color:blue;
+    font-size: 35px;
+font-family: arial;
+padding-left: 20px;
+float: left;
+padding-top: 10px ;
+font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    
+}
+nav ul li{
+    display: inline-block;
+    line-height: 10px;
+    margin: 0 30px;
+}
+nav ul li a{
+    color: rgb(0, 110, 255);
+    font-size: 17px;
+    padding: 8px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background:orchid;
+    transition: .5s;
+}
+

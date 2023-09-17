@@ -1,0 +1,574 @@
+.logo{
+    color: aqua;
+font-size: 35px;
+font-family: arial;
+padding-left: 20px;
+float: left;
+padding-top: 10px ; 
+
+}
+.main{
+    width: 100%;
+   text-align: left;
+    background-position: center;
+background-size: cover;
+height: 20vh;
+}
+.menu{
+    background: rgb(130, 148, 153);
+    text-align: center;
+    height: 150px;
+width: 100%;
+}
+nav ul
+{
+float:left;
+margin-left: 100px;
+margin-top: 100px;
+
+}
+nav ul li{
+display: inline-block;
+line-height: 50px;
+margin: 0 30px;
+}
+nav ul li a{
+color: rgba(21, 228, 243, 0.897);
+font-size: 20px;
+padding: 8px 5px;
+border-radius: 3px;
+text-transform: uppercase;
+}
+a.active,a:hover{
+background:orchid;
+transition: .5s;
+}
+.top{
+    text-align: right;
+    margin-top: -130px;
+    margin-right: 30px;
+    
+}
+.top ul{
+    float:right;
+    margin-left: 100px;
+    margin-top: -150px; 
+}
+.top ul li{
+    display: inline-block;
+line-height: 50px;
+cursor:pointer;
+border-radius: 10px;
+}
+.top ul li a{
+    color: rgba(21, 228, 243, 0.897);
+    font-size: 20px;
+    padding: 8px 5px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.cn {
+    width: 160px;
+    height: 40px;
+    background-color:rgb(130, 148, 153);
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.cn a{
+    color: rgba(21, 228, 243, 0.897);  
+}
+.cn :hover{
+    background:orchid;
+}
+.par{
+    text-decoration:dashed;
+}
+.content {
+    color:none;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 80px;
+    
+    
+}
+
+   
+    .fo{
+        color: #fff;
+    font-size: 40px;
+    text-align: right;
+    position: bottom;
+    word-spacing: 200px;
+    background: rgb(0, 77, 100);
+    text-align: right;
+    height: 150px;
+    left:1000px;
+    
+    }
+    
+    
+    
+    
+    .footer{
+        background-color:rgb(0, 77, 100) ;
+        box-sizing: border-box;
+        padding: 70px 0;
+    }
+    .container{
+        max-width: 1170px;
+        background-color: rgba(1, 20, 20, 0.938);
+        margin: auto  ;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    ul{
+        list-style: none;
+    }
+    .footer-col{
+        width: 25%;
+        padding: 0 15px;
+    }
+    .footer-col h4{
+        font-size: 18px;
+        color: aliceblue;
+        text-transform: capitalize;
+       
+        font-weight: 500;
+        position:relative;
+    }
+    .footer-col h4::before{
+        content: '';
+        position: absolute;
+        left:0;
+        bottom: -10px;
+        background-color: rgb(255, 249, 240);
+        height: 2px;
+        box-sizing: border-box;
+        width: 50px;
+    }
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ff7200;
+    text-decoration: none;
+    font-weight: 300;
+    color: blanchedalmond;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ff7200;
+    padding-left: 8px;
+}
+.pic{
+    display: inline;
+    
+}
+
+forms td{
+    width: 500px;
+    height:300px;
+   
+}
+.c{
+    width: 100px;
+    height: 40px;
+    background-color:rgb(130, 148, 153);
+    margin-bottom: 10px;
+    margin-left: 200px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.forms{
+    width: 300px;
+    height: 700px;
+    border-radius: 10px;
+    padding: 25px;
+    position: center;
+    margin-left: 90px;
+   
+  
+}
+.forms h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: aqua;
+    font-size: 22px;
+    
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.forms input{
+    width: 240px;
+    height: 30px;
+    background: transparent;
+    
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: aqua;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.forms.link{
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 0px;
+    text-align: center;
+    color: black;
+    
+}
+.containers{
+    position: relative;
+    width: 100%;
+}
+
+
+.navigation{
+    position: absolute;
+     width: 300px;
+     height: 800px;
+     background-color: gray ;
+      margin-left: -90px;
+     
+     }
+     .navigation ul{
+     position: absolute;
+     top:70px;
+     left: 0;
+     width: 100%;
+     
+     }
+     .navigation ul li{
+     position: relative;
+     width: 100%;
+     list style:none;
+     height: 100px;
+     }
+      
+     .navigation ul li a{
+         position:relative;
+         display: block;
+         text-decoration: solid ;
+         color:#fff;
+         width: 100%;
+         
+     }
+     .navigation ul li:hover a{
+         color:aquamarine;
+         height: 50px;
+     }
+     
+     
+     .navigation b{
+         color:pink;
+         font-size: x-large;
+     }
+     .maina{
+         position:absolute;
+         width:calc(100%-70px);
+         left: 300px;
+         min-height: 100vh;
+         
+         transition: 0.5s;
+     
+     }
+     .other{
+         position: fixed;
+     width: 300px;
+     height: 80%;
+     background-color: gray ;
+     border-left:10px solid var(white);
+     transition: 0.5s;
+     overflow: hidden;
+ margin-left: 1050px;
+ margin-top: 150px;
+     }
+     
+     .search{
+         position: relative;
+         width: 50%;
+     margin-left: 130px;
+     }
+     .search label input{
+         width: 40%;
+         height: 40px;
+         border-radius: 40px;
+         padding: 5px 20px;
+         padding-left: 35px;
+         font-size: 18px;
+         outline:none ;
+         border:1px var(grey) ; 
+     }
+     .search label ion-icon{
+         position: absolute;
+         top: 0;
+         left:10px;
+         font-size: 1.5rem;
+     }
+     .user{
+         position: relative;
+         width: 40px;
+         height: 40px;
+         border-radius: 50%;
+         overflow: hidden;
+         cursor: pointer;
+         margin-left: 1000px;
+     margin-top: -40px;
+     }
+     .user img{
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+     
+     }
+     .con{
+         margin-left: 100px;
+         margin-top: 80px;
+     }
+     .cardbox{
+         position: relative;
+         width: 100%;
+         padding: 20px;
+ display: grid;
+ grid-template-columns: repeat(4,1fr);
+ grid-gap: 30px;
+     }
+     .cardbox .card{
+ position: relative;
+ background: var(white);
+ padding: 30px;
+ border-radius: 20px;
+ display: flex;
+ justify-content: space-between;
+ cursor: pointer;
+ box-shadow: 0 7px 25px rgba(0,0,0,0.08);
+     }
+     .cardbox .card .numbers{
+         position: relative;
+ font-weight: 500;
+ font-size: 2.5rem;
+ color:blue;
+     }
+     .cardbox .card .cardname{
+         margin-top: 5px;
+ color:var(black2);
+ font-size: 1.1rem;
+     }
+     .cardbox .card:hover{
+         background:blue;
+     }
+     .cardbox .card:hover .numbers,
+     .cardbox .card:hover .cardname
+ {
+     color:white;
+ }
+ .details{
+     position: relative;
+ display: grid;
+ width: 100%;
+ padding: 20px;
+ grid-template-columns: 2fr 1fr;
+ grid-gap: 30px;
+ margin-top: 10px;
+ }
+ .details .recentorders{
+     position: relative;
+     display: grid;
+ background: white;
+ padding: 20px;
+ box-shadow: 0 7px 25px rgba(0,0,0,0.08);
+     min-height: 500px;
+ border-radius: 20px;
+ }
+ .details .cardheader{
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+ }
+ .cardheader h2{
+     font-weight: 600;
+     color: blue;
+ }
+ .cardheader .btn{
+     position: relative;
+ padding: 5px 10px;
+ background: blue;
+ text-decoration: none;
+ color: white;
+ border-radius: 6px;
+ } 
+ .details table {
+ width: 100%;
+ border-collapse: collapse ;
+ margin-top: 10px;
+ }
+ .details table thead td{
+     font-weight: 600;
+ }
+ .details .recentorders table tr{
+     color: black;
+     border-bottom: 1px solid rgba(0,0,0,0.1);
+ }
+ .details .recentorders table tr:last-child{
+     border-bottom: none;
+ }
+ .details .recentorders table tbody tr:hover{
+     background: blue;
+     color: white;
+ }
+ .details .recentorders table td{
+     padding: 10px;
+ }
+ .details .recentorders table tr td:last-child{
+     text-align: end;
+ }
+ .details .recentorders table tr td:nth-child(2){
+     text-align: end;
+ }
+ .details .recentorders table tr td:last-child(3){
+     text-align: center;
+ }
+ .statusdelivered{
+     padding: 2px 4px;
+     background:yellow;
+     color: white;
+     border-radius: 4px;
+     font-size: 14px;
+     font-weight: 500;
+ }
+ .statuspending {
+     padding: 2px 4px;
+     background:red;
+     color: white;
+     border-radius: 4px;
+     font-size: 14px;
+     font-weight: 500;
+ }
+ .statusreturn {
+     padding: 2px 4px;
+     background:purple;
+     color: white;
+     border-radius: 4px;
+     font-size: 14px;
+     font-weight: 500;
+ }
+ .statusinprogress{
+     padding: 2px 4px;
+     background:greenyellow;
+     color: white;
+     border-radius: 4px;
+     font-size: 14px;
+     font-weight: 500;
+ }
+ .recentcustomers{
+     position: relative;
+     display: grid;
+     min-height: 500px;
+     padding: 20px;
+     background: white;
+     box-shadow: 0 7px 25px rgda(0,0,0,0.8);
+     border-radius: 20px;
+ }
+ .recentcustomers .imgbx{
+     position: absolute;
+     width: 40px;
+     height: 40px;
+     border-radius: 50px;
+     overflow: hidden;
+ }
+ .recentcustomers .imgbx img{
+     position: absolute;
+     top: 0;
+ left:0;
+ width:100%;
+ height: 100%;
+ object-fit: cover;
+ }
+ .recentcustomers table tr:hover{
+     background: blue;
+     color: white;
+ }
+ 
+form select{
+    width: 450;
+    padding: 13px;
+    padding-left: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    box-shadow: 0 5px 10px 0 rgb(0,0,0,0.25);
+}
+form textarea{
+    width: 400px;
+    height: 50px;
+}
+form button{
+    width: 160px;
+    height: 40px;
+    background-color:rgb(130, 148, 153);
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor:pointer;
+}
+form button a{
+    color: rgba(21, 228, 243, 0.897);  
+}
+.link{
+    color: black;
+}
+.ok{
+    position: relative;
+    margin-left: 400px;
+    line-height: 30px;
+}
+
+.ok input{
+    width: 240px;
+    height: 30px;
+    background: transparent;
+    
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: aqua;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.buy {
+    width: 50px;
+    height: 40px;
+    background-color:rgb(130, 148, 153);
+  
+    border-radius: 10px;
+    cursor:pointer;
+}
+.buy a{
+    color: rgba(21, 228, 243, 0.897); 
+    
+}
+.buy :hover{
+    background:orchid;
+}

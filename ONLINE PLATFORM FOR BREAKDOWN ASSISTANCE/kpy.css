@@ -1,0 +1,41 @@
+.logo{
+    color: aqua;
+font-size: 35px;
+font-family: arial;
+padding-left: 20px;
+float: left;
+padding-top: 10px ; 
+
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(ky.jpg);
+    background-position: top;
+background-size:contain;
+height: 50vh;
+}
+.menu{
+    background: rgb(0, 77, 100);
+    text-align: center;
+    height: 80px;
+
+}
+nav ul
+{
+float:left;
+margin-left: 100px;
+
+
+}
+nav ul li{
+display: inline-block;
+line-height: 50px;
+margin: 0 30px;
+}
+nav ul li a{
+color: rgb(0, 110, 255);
+font-size: 10px;
+padding: 8px 5px;
+border-radius: 3px;
+text-transform: uppercase;
+}
